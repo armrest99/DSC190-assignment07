@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.dvc/tmp/
+data/clean/
+data/transformed/
+data/features/

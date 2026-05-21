@@ -1,0 +1,15 @@
+[project]
+name = "dsc190-assignment07"
+version = "0.1.0"
+description = "Reproducible data pipeline for DSC 190 assignment 07"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc>=3.59.0",
+    "marimo>=0.13.0",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.0",
+]
+
+[tool.uv]
+package = false
